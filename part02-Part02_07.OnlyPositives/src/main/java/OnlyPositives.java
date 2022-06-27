@@ -8,20 +8,18 @@ public class OnlyPositives {
         while (true) {
             System.out.println("Give a number:");
             int number = scanner.nextInt();
-            int numbs = 0;
-            if (number > 0 && number < 0) {
-                numbs = (number * number);
-                     
+
+            if (number < 0) {
+                System.out.println("Unsuitable number");
+
                 continue;
-            }
-            if (number == 0) {
+            } else if (number == 0) {
 
                 break;
+            } else {
+                System.out.println(number * number);
             }
-            System.out.println(numbs);
-            System.out.println("Unsuitable number");
         }
-        
 
     }
 }
