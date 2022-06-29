@@ -6,7 +6,7 @@ public class Counting {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int bee = scanner.nextInt();
-        for(int i = bee; i < 5; i++){
+        for(int i = 0; i <= bee;i++){
             System.out.println(i);
         }
 
