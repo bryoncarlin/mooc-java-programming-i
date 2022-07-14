@@ -2,11 +2,17 @@
 public class AdvancedAstrology {
 
     public static void printStars(int number) {
-        // part 1 of the exercise
+        for (int i = 0; i < number; i++) {
+            System.out.print("*");
+
+        }
+
     }
 
     public static void printSpaces(int number) {
-        // part 1 of the exercise
+        for (int i = 0; i < number; i++) {
+        }
+        System.out.println("");
     }
 
     public static void printTriangle(int size) {
